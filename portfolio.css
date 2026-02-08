@@ -1,0 +1,54 @@
+body{
+    background-image: url(faded.jpg);
+    background-repeat: no-repeat;
+    background-position:static ;
+    background-attachment:fixed ;
+    background-size: cover;
+}
+span{
+    color:rgba(10, 71, 240, 0.955);
+    text-transform: uppercase;
+}
+.nc{
+    text-align: left;
+}
+h1{
+    text-decoration: underline dashed rgb(48, 97, 221);
+    word-spacing: 3px;
+    font-style:normal;
+    font-style:italic;
+}
+h4{
+    word-spacing:3px;
+    letter-spacing: 2px;
+    font-variant: small-caps;
+
+}
+
+img{
+    width:300px;
+    height:320px;
+    border-radius: 30px;
+    box-shadow: 3px 3px 4px rgb(5, 136, 217),-3px -3px 4px rgb(222, 90, 42);
+}
+.head{
+    color:rgb(48, 74, 241);
+    text-decoration: none;
+    font-style: normal;
+    font-family: monospace;
+    font-variant: normal;
+    font-size:50px;
+
+}
+#hres{
+    margin:-190px;
+    padding:-30px;
+    text-decoration: none;
+}
+#headres{
+    margin:200px;
+}
+hr{
+    border-style: dashed;
+    border-color: rgb(1, 18, 6);
+}

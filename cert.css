@@ -1,0 +1,13 @@
+h1{
+    font-size: 40px;
+    font-family:sans-serif;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.364);
+}
+body{
+    background-image: url(faded.jpg);
+ background-repeat: no-repeat;
+    background-position:static ;
+    background-attachment:fixed ;
+    background-size: cover;
+}

@@ -1,0 +1,75 @@
+.con1{
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+    gap:20px;
+    height:580px;
+    width: auto;
+     align-self: center;
+    justify-self: center;
+
+
+}
+.coni{
+    height:280px;
+    width: 340px;
+    background-image: url("datasci.png");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+     border:10px solid rgb(134, 207, 226);
+     border-radius: 25px 10px;
+}
+.con2{ height:280px;
+    width: 340px;
+    background-image: url("machinelear.png");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+     border:10px solid rgb(134, 207, 226);
+      border-radius: 25px 10px;
+}
+body{
+  background-image: url(faded.jpg);
+ background-repeat: no-repeat;
+    background-position:static ;
+    background-attachment:fixed ;
+    background-size: cover;
+}
+.main-box {
+height:240px;
+ width: 340px;
+    background-image: url("hcj.png");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    position: relative;
+    cursor: pointer;
+     border:10px solid rgb(134, 207, 226);
+      border-radius: 25px 10px;
+}
+
+.sub-boxes {
+    display: none; /* hide by default */
+    position: absolute;
+    top: 10%; /* show below main box */
+    left: 40%;
+
+}
+
+.sub-box {
+    background-image: url("white.jpeg");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+ 
+    padding: 15px;
+    width:auto;
+    border: 6px solid rgb(134, 207, 226);
+    margin-top: 5px;
+    color: rgb(7, 128, 181);
+}
+
+
+.main-box:hover .sub-boxes {
+    display: block;
+}
